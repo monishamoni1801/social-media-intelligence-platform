@@ -1,0 +1,21 @@
+name: trend_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas=1.5.3
+  - numpy=1.23.5
+  - scikit-learn=1.2.2
+  - xgboost=1.7.6
+  - nltk=3.8.1
+  - textblob=0.17.1
+  - matplotlib=3.7.1
+  - seaborn=0.12.2
+  - plotly=5.14.1
+  - streamlit=1.22.0
+  - wordcloud=1.8.2.2
+  - joblib=1.2.0
+  - pip
+  - pip:
+    - tweepy  # optional, for Twitter API
